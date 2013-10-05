@@ -47,5 +47,6 @@ function tablestuff(data, tabletop) {
 Tabletop.init( { 
   key: '0AuER3PNq5JgBdEsxTlJIZjhpRHJqZkJudkE0eUpEM1E',
   callback: tablestuff,
-  simpleSheet: false
+  simpleSheet: false,
+  parameterize: 'http://darkliquid.co.uk/playground/numenera/rumours/proxy.php?url='
 });
